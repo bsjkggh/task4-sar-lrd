@@ -10,6 +10,8 @@ build/*.log
 build/*.jou
 build/*.bin
 build/*.mat
+build/.Xil/
+build/NA/
 build/cmp_out.txt
 build/uart.log
 build/diag*.txt
