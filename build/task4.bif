@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+    [bootloader]..\vitis_ws\task4_plat\export\task4_plat\sw\task4_plat\boot\fsbl.elf
+    ..\sd_rd_lcd\sd_rd_lcd.runs\impl_1\system_wrapper.bit
+    ..\vitis_ws\task4_app\Debug\task4_app.elf
+}

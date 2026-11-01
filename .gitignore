@@ -1,0 +1,29 @@
+# ===== Vivado 工程 / 生成物 =====
+sd_rd_lcd/
+_pkg/
+
+# ===== Vitis workspace 生成物 =====
+vitis_ws/
+
+# ===== 构建产物 & 日志 =====
+build/*.log
+build/*.jou
+build/*.bin
+build/*.mat
+build/cmp_out.txt
+build/uart.log
+build/diag*.txt
+
+# ===== SD 卡部署（由 build_all.bat 重建）=====
+sd_card/
+
+# ===== MATLAB 大中间结果（可由 .m 重新生成）=====
+matlab/img_ref.mat
+matlab/*.asv
+
+# ===== 通用 =====
+*.log
+*.jou
+*.pb
+.DS_Store
+Thumbs.db
